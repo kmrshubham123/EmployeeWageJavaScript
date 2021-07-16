@@ -37,4 +37,4 @@ switch (empCheck)
 let empCheck = Math.floor(Math.random()*3);
 let empHrs= getWorkingHours(empCheck)
 let empWage = empHrs * WAGE_PER_HOUR;
-console.log("Employee_Wage: " + empWage);
+console.log("Hours: " +empHrs +" "+"Employee_Wage: " + empWage);
